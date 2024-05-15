@@ -70,7 +70,7 @@ res.json({
   username: user.username,
   description: exercise.description,
   duration: exercise.duration,
-  date: new Date(exercise.date).toDateString
+  date: new Date(exercise.date).toDateString()
 })
 }
 }catch(err){
